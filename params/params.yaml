@@ -1,0 +1,15 @@
+experiments:
+  - TS_5_4
+  - TS_6_4
+  - TS_69_2
+  - TS_6_6
+  - TS_73_6
+  - TS_86_3
+  - TS_99_9
+object_names:
+  - ribosome
+  - virus-like-particle
+  - beta-galactosidase
+  - beta-amylase
+  - apo-ferritin
+  - thyroglobulin

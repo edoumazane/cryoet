@@ -1,0 +1,38 @@
+name: cryoet
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - kaggle
+  - ipykernel
+  - natsort
+  - ipytree
+  - matplotlib
+  - seaborn
+  - snakemake
+  - pytorch
+  - torchvision
+  - monai
+  - tqdm
+  - einops
+  - dask
+  - zarr
+  - timm
+  - gputil
+  - scikit-learn
+  - fastai
+  - umap-learn
+  - pip:
+    - copick[all]
+    - napari[all]
+    - pytorchvideo
+    - tensorboard
+    - imbalanced-learn
+variables:
+  data_dir: /path/to/cryoet/data
+  src_dir: /path/to/cryoet/src
+  repo_dir: /path/to/cryoet
+  tripath_dir: /path/to/TriPath
