@@ -6,33 +6,42 @@ channels:
 dependencies:
   - python=3.10
   - pip
+  - natsort
+  - tqdm
+
+  - snakemake
   - kaggle
   - ipykernel
-  - natsort
-  - ipytree
-  - matplotlib
-  - seaborn
-  - snakemake
-  - pytorch
-  - torchvision
-  - monai
-  - tqdm
+  - notebooks
+  
+  - numpy
+  - pandas
   - einops
+  - scikit-learn
+  - umap-learn
+  
   - dask
   - zarr
-  - timm
-  - gputil
-  - scikit-learn
+
+  - matplotlib
+  - seaborn
+  
+  - ipytree
+  - pytorch
+  - torchvision
   - fastai
-  - umap-learn
+  - monai
+  - timm
+  
+  - gputil
   - pip:
+    - imbalanced-learn
     - copick[all]
     - napari[all]
     - pytorchvideo
     - tensorboard
-    - imbalanced-learn
 variables:
-  data_dir: /path/to/cryoet/data
-  src_dir: /path/to/cryoet/src
-  repo_dir: /path/to/cryoet
-  tripath_dir: /path/to/TriPath
+  DATA_DIR: /path/to/cryoet/data
+  SRC_DIR: /path/to/kaggle/cryoet/src
+  REPO_DIR: /path/to/kaggle/cryoet
+  TRIPATH_DIR: /path/to/deep-learning-models/TriPath

@@ -2,3 +2,9 @@ data
 **/__pycache__
 .DS_Store
 notebooks/runs
+environment.yaml
+.idea
+**/.ipynb_checkpoints
+.env
+notebooks/viz_params/*.yaml
+!notebooks/viz_params/*template.yaml
