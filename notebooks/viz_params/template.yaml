@@ -1,0 +1,42 @@
+- title: TS_5_4
+  layers:
+    - path: path/to/TS_5_4/VoxelSpacing10.000/denoised.zarr
+      name: denoised
+      colormap: gray_r
+      blending: additive
+      scale: [100, 100, 100]
+- title: TS_6_6
+  layers:
+    - path: path/to/TS_6_6/VoxelSpacing10.000/denoised.zarr
+      name: denoised
+      colormap: gray_r
+      blending: additive
+      scale: [100, 100, 100]
+- title: TS_69_2
+  layers:
+    - path: path/to/TS_69_2/VoxelSpacing10.000/denoised.zarr
+      name: denoised
+      colormap: gray_r
+      blending: additive
+      scale: [100, 100, 100]
+- title: TS_73_6
+  layers:
+    - path: path/to/TS_73_6/VoxelSpacing10.000/denoised.zarr
+      name: denoised
+      colormap: gray_r
+      blending: additive
+      scale: [100, 100, 100]
+- title: TS_86_3
+  layers:
+    - path: path/to/TS_86_3/VoxelSpacing10.000/denoised.zarr
+      name: denoised
+      colormap: gray_r
+      blending: additive
+      scale: [100, 100, 100]
+- title: TS_99_9
+  layers:
+    - path: path/to/TS_99_9/VoxelSpacing10.000/denoised.zarr
+      name: denoised
+      colormap: gray_r
+      blending: additive
+      scale: [10, 10, 10]
