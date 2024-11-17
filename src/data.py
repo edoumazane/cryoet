@@ -1,4 +1,4 @@
-
+import os
 
 def get_experiment_paths(data_dir, experiment):
     """
@@ -23,3 +23,10 @@ def get_experiment_paths(data_dir, experiment):
     for file_type in ["ribosome", "virus-like-particle", "beta-galactosidase", "beta-amylase", "apo-ferritin", "thyroglobulin"]:
         jsons[file_type] = data_dir / f"train/overlay/ExperimentRuns/{experiment}/Picks/{file_type}.json"
     return dict(images=images, jsons=jsons)
+
+def generate_experiment_list(data_dir):
+    return os.listdir(data_dir / 'train/static/ExperimentRuns')
+
+def generate_path_list(data_dir):
+    experiments = generate_experiment_list(data_dir)
+    return [data_dir / f'train/static/ExperimentRuns/{experiment}/VoxelSpacing10.000/denoised.zarr' for experiment in experiments]
